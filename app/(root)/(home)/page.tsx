@@ -1,3 +1,4 @@
+"use client"
 import PortfolioItem from '@/components/PortfolioItem'
 import SectionHeading from '@/components/SectionHeading'
 import TestimonialSection from '@/components/TestimonialSection'
