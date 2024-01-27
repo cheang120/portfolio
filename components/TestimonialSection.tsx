@@ -5,9 +5,7 @@ import { reviews } from '@/constants'
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react'
 import {Swiper, SwiperSlide} from "swiper/react"
 import { Swiper as SwiperType} from "swiper"
-import "Swiper/css"
-import 'swiper/swiper-bundle.min.css'
-import 'swiper/swiper.min.css'
+
 import 'swiper/swiper-bundle.css';
 import { useWindowSize } from '@/hooks/useWindowsSize'
 
