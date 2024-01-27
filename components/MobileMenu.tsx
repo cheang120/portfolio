@@ -55,14 +55,15 @@ const MobileMenu = () => {
                 Contact me
                 </Link>
             </nav>
-            <div className='w-full h-20 flex items-center justify-between max-width border-t border-peach'>
+            <div className='w-full h-20 flex items-center justify-center gap-10 max-width border-t border-peach'>
                 {socialLinks.map((link,index) => (
-                    <a 
-                        href={link.url}
-                        className='text-grey-700 hover:text-purple transition-colors'
-                    >
-                        {link.label}
-                    </a>
+                        <a 
+                            href={link.url} 
+                            key={index}
+                            className='w-10 h-10 bg-purple text-peach flex items-center justify-center rounded'
+                        >
+                            <link.icon strokeWidth={0} fill='currentColor' />
+                        </a>
                 ))}
             </div>
         </div>

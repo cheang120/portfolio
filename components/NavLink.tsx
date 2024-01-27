@@ -20,7 +20,6 @@ const NavLink = ({href,label,className}:{href:string,label:string,className?:str
                             : "after:scale-x-0 after:origin-left"
                     }
             `}
-
     >
       {label}
     </Link>
