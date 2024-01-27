@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import React from 'react'
 
-export const metadate: Metadata = {
+export const metadata: Metadata = {
     title: "Portfolio - Carrey Cheang"
 }
 
