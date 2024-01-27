@@ -1,11 +1,10 @@
-"use client"
 import React from 'react'
 import { Metadata } from 'next'
 import Image from 'next/image'
 import SectionHeading from '@/components/SectionHeading'
 import { timeline } from '@/constants'
 
-export const metadate: Metadata = {
+export const metadata: Metadata = {
     title: "About - Carrey Cheang"
 }
 
