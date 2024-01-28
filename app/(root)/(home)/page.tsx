@@ -17,9 +17,16 @@ const page = () => {
       
         <div className='tablet:w-2/3 mt-10 tablet:mt-0'>
           <div className='flex flex-col gap-3 items-center tablet:items-start max-w-2xl text-center tablet:text-left'>
-            <p className='px-4 py-2 bg-peach-500 text-grey-600 w-max rounded'>Hello There</p>
-            <h1 className='text-grey'>Carrey Cheang welcome's you</h1>
-            <p className='text-grey-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <p 
+              className='px-4 py-2 bg-peach-500 text-grey-600 w-max rounded'
+              data-aos="fade-down"
+            >
+                Hello There
+            </p>
+            <h1 className='text-grey'  data-aos="fade-down" data-aos-delay="100">
+              Carrey Cheang welcome's you
+            </h1>
+            <p className='text-grey-600' data-aos="fade-down" data-aos-delay="200">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Adipisci ut quam facilis dolorem vitae, earum animi 
               blanditiis repellat delectus, facere asperiores assumenda 
               consectetur aliquid tempore dignissimos fugit. Nesciunt, 
@@ -27,7 +34,7 @@ const page = () => {
             </p>
           </div>
 
-          <div className='flex gap-5 mt-10 justify-center tablet:justify-start'>
+          <div className='flex gap-5 mt-10 justify-center tablet:justify-start' data-aos="fade-down" data-aos-delay="300">
             <Link href={"/contact"} className='btn primary'>
               <Phone />
               Contact now
@@ -83,7 +90,10 @@ const page = () => {
 
         </div>
 
-      <div className='mt-10 relative w-80 tablet:w-96 h-[400px] tablet:h-[550px] rounded-b-2xl '>
+      <div 
+        className='mt-10 relative w-80 tablet:w-96 h-[400px] tablet:h-[550px] rounded-b-2xl overflow-hidden'
+        data-aos="fade-left" data-aos-delay="300"
+      >
           <Image
             src={"/images/hero.jpg"} 
             alt='hero'

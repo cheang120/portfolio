@@ -24,7 +24,7 @@ const FaqsSection = () => {
                     <h5 className='text-grey-700 mb-2'>Still have any questions?</h5>
                     <p className='text-grey-600'>jfkdk eieie fjdkdk jfkdk skdldk fkdlsl {" "}</p>
                 </div>
-                <Link href={"/contack"} className='btn btn-primary w-max'>
+                <Link href={"/contact"} className='btn btn-primary w-max'>
                     Contact me <ArrowRight />
                 </Link>
             </div>
