@@ -1,4 +1,5 @@
 import PortfolioSection from '@/components/PortfolioSection'
+import { portfolios } from '@/constants'
 import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
@@ -20,7 +21,20 @@ const page = () => {
         </div>
       </section>
 
-      <PortfolioSection data={[]} title={''} />
+      {/* removing first 3 portfolio and adding at last to make a variation */}
+      <PortfolioSection data={portfolios} title={"Projects Done in 2024"}/>
+
+      {/* removing first 3 porfolio and adding at last to make a variation */}
+      <PortfolioSection 
+        data={portfolios.slice(3).concat(portfolios.slice(0,3))} 
+        title={"Projects Done in 2023"}
+      />
+
+      {/* same with 6 */}
+      <PortfolioSection 
+        data={portfolios.slice(6).concat(portfolios.slice(0,6))} 
+        title={"Projects Done in 2022"}
+      />
     </>
   )
 }
