@@ -8,6 +8,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import FaqsSection from '@/components/FaqsSection'
+import { FaGithub, FaHtml5, FaReact, FaSass } from "react-icons/fa6";
+import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io'
 
 const page = () => {
   return (
@@ -21,52 +23,38 @@ const page = () => {
               className='px-4 py-2 bg-peach-500 text-grey-600 w-max rounded'
               data-aos="fade-down"
             >
-                Hello There
+                Hello There 🤗
             </p>
             <h1 className='text-grey'  data-aos="fade-down" data-aos-delay="100">
               Carrey Cheang welcome's you
             </h1>
-            <p className='text-grey-600' data-aos="fade-down" data-aos-delay="200">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Adipisci ut quam facilis dolorem vitae, earum animi 
-              blanditiis repellat delectus, facere asperiores assumenda 
-              consectetur aliquid tempore dignissimos fugit. Nesciunt, 
-              minus magnam.
+            <p className='text-grey-600' data-aos="fade-down" data-aos-delay="200">
+              I have been working in the social services industry for over a decade, 
+              assisting young individuals in recovering from drug addiction and 
+              reintegrating into society. I also help them rebuild their family 
+              relationships. Apart from my professional work, I have a passion for 
+              learning new knowledge and skills. Web development is one of my interests, 
+              and during my free time, I dedicate myself to learning various web 
+              development-related skills.
             </p>
           </div>
 
-          <div className='flex gap-5 mt-10 justify-center tablet:justify-start' data-aos="fade-down" data-aos-delay="300">
+          <div className='flex gap-5 mt-6 justify-center tablet:justify-start' data-aos="fade-down" data-aos-delay="300">
             <Link href={"/contact"} className='btn primary'>
               <Phone />
               Contact now
             </Link>
-            <Link href={"/contact"} className='btn'>
+            <Link href={"/portfolio"} className='btn'>
               View Portfolio
               <ArrowRight size={16}/>
             </Link>
           </div>
 
-          <div className='bg-peach-400 w-full py-8 px-10 rounded-1-lg mt-15 flex-wrap gap-12 hidden tablet:flex'>
-            <div>
-              <h3 className='text-grey-700'>
-                55 <span className='text-purple'>+</span>
-              </h3>
-              <p className='text-grey-600'>Projects Completed</p>
-            </div>
-            <div>
-              <h3 className='text-grey-700'>
-                55 <span className='text-purple'>+</span>
-              </h3>
-              <p className='text-grey-600'>Happy Customers</p>
-            </div>
-            <div>
-              <h3 className='text-grey-700'>
-                5 <span className='text-purple'>+</span>
-              </h3>
-              <p className='text-grey-600'>Years of experience</p>
-            </div>
-          </div>
 
-          <div className='mt-16 grid grid-cols-2 gap-3 tablet:hidden'>
+
+
+
+          {/* <div className='mt-16 grid grid-cols-2 gap-3 tablet:hidden'>
             <div className='py-8 px-10 rounded-lg bg-peach-400 text-center col-span-2'>
               <h3 className='text-grey-700'>
                 55 <span className='text-purple'>+</span>
@@ -85,7 +73,7 @@ const page = () => {
               </h3>
               <p className='text-grey-600'>Years of experience</p>
             </div>
-          </div>
+          </div> */}
 
 
         </div>
@@ -103,6 +91,65 @@ const page = () => {
         </div>
 
       </section>
+
+      <section className='max-width section-padding'>
+        <SectionHeading
+          title="Social Services"
+          subtitle="Here is my overview of my involvement in social service over the past decade."
+        />
+        <div className='text-center bg-peach-400 w-full py-4 px-10 rounded-1-lg justify-around flex-wrap gap-12  lm:flex' data-aos="fade-right" data-aos-delay="400">
+            <div className='my-4 border-t-2 border-b-2 py-4'>
+              <p className='text-grey-600'>Serve</p>
+              <h3 className='text-grey-700'>
+                400 <span className='text-purple'>+</span>
+              </h3>
+              <p className='text-grey-600'>Individuals</p>
+            </div>
+            <div className='my-4 border-t-2 border-b-2 py-4'>
+            <p className='text-grey-600'>Organize and/or coordinate</p>
+              <h3 className='text-grey-700'>
+                10 <span className='text-purple'>+</span>
+              </h3>
+              <p className='text-grey-600'>events or courses annually</p>
+            </div>
+            <div className='my-4 border-t-2 border-b-2 py-4'>
+              <h3 className='text-grey-700'>
+                13 <span className='text-purple'>+</span>
+              </h3>
+              <p className='text-grey-600'>Years of experience</p>
+            </div>
+        </div>
+      </section>
+
+      <section className='max-width section-padding'>
+        <SectionHeading
+          title="Web Development"
+          subtitle="Here is my web develop related skills."
+        />
+        <div className='text-center bg-peach-400 w-full py-4 px-10 rounded-1-lg justify-around flex-wrap gap-12 flex' data-aos="fade-right" data-aos-delay="400">
+            <div className='my-2 text-4xl text-red-600'>
+              <FaHtml5 />
+            </div>
+            <div className='my-2 text-4xl text-sky-600'>
+              <IoLogoCss3 />
+            </div>
+            <div className='my-2 text-4xl text-[#FF22E9]'>
+              <FaSass />
+            </div>
+
+            <div className='my-2 text-4xl text-[#F0DB4F]'>
+              <IoLogoJavascript />            
+            </div>
+            <div className='my-2 text-4xl text-[#61DBFB]'>
+              <FaReact />          
+            </div>
+            <div className='my-2 text-4xl text-black'>
+              <FaGithub />
+            </div>
+
+        </div>
+      </section>
+
 
       {/* skills section */}
       <section className='max-width section-padding'>

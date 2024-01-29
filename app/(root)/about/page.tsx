@@ -29,10 +29,13 @@ const page = () => {
             </p>
             <h1 className="text-grey-700">I'm Carrey Cheang</h1>
             <p className="text-grey-600">
-                Lorem ipsum dolor sit amet consectetur, 
-                adipisicing elit. Neque iure sed nisi fuga quidem enim. Maiores, 
-                voluptatibus quo quod ipsam adipisci ipsum assumenda. Non praesentium voluptates 
-                distinctio, itaque adipisci blanditiis?
+            I have been working in the social services industry for over a decade, 
+              assisting young individuals in recovering from drug addiction and 
+              reintegrating into society. I also help them rebuild their family 
+              relationships. Apart from my professional work, I have a passion for 
+              learning new knowledge and skills. Web development is one of my interests, 
+              and during my free time, I dedicate myself to learning various web 
+              development-related skills.
             </p>
           </div>
 

@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       screens: {
         mobile: "490px",
+        lm:"660px",
         tablet: "1040px",
         desktop: "1620px",
       },
@@ -18,6 +19,8 @@ const config: Config = {
         black: "#000000",
         green: "#5EDC11",
         yellow: "#FFCE22",
+        js:"#F0DB4F",
+        react:"#61DBFB",
         orange: "#FF7222",
         pink: "#FF22E9",
         blue: "#2260FF",
@@ -56,6 +59,12 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      lineHeight: {
+        '12':"3rem",
+        "14":"4rem",
+        "15":"4.5rem",
+        "16":"5rem"
       },
     },
   },

@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className='py-10 border-t border-peach max-width'>
       <div className='flex flex-col items-center justify-between'>
         <Link href={"/"} className='text-purple text-xl font-semibold'>
-          <h5 className='text-purple text-xl font-semibold'>Baby<span className='text-yellow'>Code</span> </h5>
+          <h5 className='text-purple text-xl font-semibold'>Carrey<span className='text-yellow'>Cheang</span> </h5>
         </Link>
 
               <div className='w-full my-4 w-max border border-peach p-5 mx-auto flex gap-5 tablet:gap-10 flex-col tablet:flex-row items-center rounded-lg'>
