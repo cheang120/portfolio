@@ -166,7 +166,7 @@ const page = () => {
         />
 
           {/* skills */}
-        <div className='bg-peach-300 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-3 tablet:gap-6'>
+        <div className=' grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-3 tablet:gap-6'>
           {skills.map((skill,index)=>(
             <div key={index} className='dark:bg-stone-800 bg-peach-300 box flex flex-col items-center gap-5'>
               
