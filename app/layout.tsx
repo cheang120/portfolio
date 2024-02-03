@@ -28,7 +28,7 @@ export default function RootLayout({
         <NextTopLoader color="#5700ff" showSpinner={false} />
         {/* Init aos */}
         <AOSInit />
-          <Header />
+          <Header href={""} label={""} />
           {children}
           <Footer />
         </Provider>
