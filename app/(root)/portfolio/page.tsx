@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <section className='max-width section-padding'>
+      <section className='dark:bg-stone-950 bg-peach-500  max-width section-padding'>
         <div className='box text-center flex flex-col items-center gap-3'>
             <div className='w-16 h-16 rounded bg-purple flex items-center justify-center flex-shrink-0 mb-5'>
                 <Image src={"/icons/stars.svg"} alt="icon" width={35} height={35}/>

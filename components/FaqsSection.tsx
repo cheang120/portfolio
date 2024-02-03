@@ -7,12 +7,12 @@ import { faqs } from '@/constants'
 
 const FaqsSection = () => {
   return (
-    <section className='max-width section-padding overflow-hidden'>
+    <section className='dark:bg-stone-950 bg-peach-500 max-width section-padding overflow-hidden'>
       <SectionHeading
         title='Frequently Asked Question'
         subtitle="jdkdk jeiei iowlq ppoo oididk fjdiwu quei fjdkf "
       />
-        <div className='flex flex-col tablet:flex-row gap-5 items-start'>
+        <div className='dark:bg-stone-950 bg-peach-500 flex flex-col tablet:flex-row gap-5 items-start'>
             <div className='box'>
                 <Accordion data={faqs} />
             </div>

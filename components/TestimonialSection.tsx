@@ -23,7 +23,7 @@ const TestimonialSection = () => {
     },[width])
 
   return (
-    <section className='max-width section-padding'>
+    <section className='dark:bg-stone-950 bg-peach-500 max-width section-padding'>
       <SectionHeading
         title='What my clients say about me' 
         subtitle={'Lorem ,ipsum kdls jakeu ndkdj meigup jfmdk .jfkdwo ,sjeig fhdksl woqpw'}      
@@ -72,7 +72,7 @@ export default TestimonialSection
 const SingleReview = ({review}:{review:(typeof reviews)[0] }) => {
 
     return (
-        <div className='box flex flex-col gap-5'>
+        <div className=' box flex flex-col gap-5'>
             <div className='flex items-center justify-between'>
                 <div>
                     <h6 className='text-grey-700'>{review.name}</h6>

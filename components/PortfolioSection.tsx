@@ -24,7 +24,7 @@ const PortfolioSection = ({data,title}:{data:typeof portfolios;title:string}) =>
     },[width])
   
     return (
-    <div className='max-width section-padding'>
+    <div className='dark:bg-stone-950 bg-peach-500 max-width section-padding'>
             <div className='pb-3 border-b border-peach flex justify-between items-center'>
                 <p>{title}</p>
                 <div className='flex gap-2'>

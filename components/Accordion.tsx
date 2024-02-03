@@ -11,7 +11,7 @@ const Accordion = ({data} : {data: AccordionData[]}) => {
     const [currentActive, setCurrentActive] = useState <number | null>(0)
 
   return (
-    <div className='flex flex-col gap-3'>
+    <div className='dark:bg-stone-950 bg-peach-500 flex flex-col gap-3'>
       {data.map((item,index) => (
         <div key={index} className='bg-peach-600 px-5 rounded-lg'>
             <div 

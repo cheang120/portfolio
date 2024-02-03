@@ -7,7 +7,7 @@ import React, { useState } from 'react'
 const PortfolioItem = ({portfolio,}:{portfolio:(typeof portfolios)[0]}) => {
     const [currentImg, setCurrentImg] = useState(portfolio.images[0])
     return (
-    <div className='box'>
+    <div className='dark:bg-stone-950 bg-peach-500 box'>
       
       <h4 className='mb-5'>{portfolio.title}</h4>
 

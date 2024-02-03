@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <section className='max-width justify-center section-padding flex flex-col tablet:flex-row gap-20 items-center'>
+      <section className='dark:bg-stone-950 bg-peach-500 pt-20 pb-16 max-width justify-center flex flex-col tablet:flex-row gap-20 items-center'>
         <div className='relative justify-center w-96 tablet:w-200px h-[calc(300px+20vw)] tablet:h-[600px]'>
             <Image 
                 src={"/images/about.png"}
