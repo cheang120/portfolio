@@ -29,13 +29,13 @@ const PortfolioSection = ({data,title}:{data:typeof portfolios;title:string}) =>
                 <p>{title}</p>
                 <div className='flex gap-2'>
                     <button 
-                        className='bg-peach-200 border border-peach p-1 rounded text-grey-700'
+                        className='dark:bg-stone-800 bg-peach-200 border dark:text-peach-700 border-peach p-1 rounded text-grey-700'
                         onClick={()=>swiperRef.current?.slidePrev()}
                     >
                         <ChevronLeft />
                     </button>
                     <button 
-                        className='bg-peach-200 border border-peach p-1 rounded text-grey-700'
+                        className='dark:bg-stone-800 bg-peach-200 border dark:text-peach-700 border-peach p-1 rounded text-grey-700'
                         onClick={()=>swiperRef.current?.slideNext()}
                     >
                         <ChevronRight />

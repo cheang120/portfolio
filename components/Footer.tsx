@@ -5,7 +5,7 @@ import NavLink from './NavLink'
 
 const Footer = () => {
   return (
-    <footer className='dark:bg-stone-950 bg-peach-500 py-10 border-t border-peach max-width'>
+    <footer className='dark:bg-stone-950 bg-peach-500 py-10 border-t border-stone-800 max-width'>
       <div className='flex flex-col items-center justify-between'>
         <Link href={"/"} className='text-purple text-xl font-semibold'>
           <h5 className='text-purple text-xl font-semibold'>Carrey<span className='text-yellow'>Cheang</span> </h5>
@@ -15,7 +15,7 @@ const Footer = () => {
                   {contactDetails.map((detail, index) => (
                     <div key={index} className='flex gap-3 items-center text-purple'>
                       <detail.icon size={20} />
-                      <p className='text-grey-600'>{detail.text}</p>
+                      <p className='dark:text-peach-700 text-grey-600'>{detail.text}</p>
                     </div>
                   ))}
               </div>
@@ -35,7 +35,7 @@ const Footer = () => {
       
 
 
-      <p className='mt-8 text-grey-600 text-center text-sm'>
+      <p className='dark:text-peach-700 mt-8 text-grey-600 text-center text-sm'>
           Copyright © {new Date().getFullYear()} BabyCode All right reseved
       </p>
 

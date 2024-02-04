@@ -11,13 +11,13 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <section className='dark:bg-stone-950 bg-peach-500  max-width section-padding'>
-        <div className='box text-center flex flex-col items-center gap-3'>
+      <section className='dark:bg-stone-950 bg-peach-500 pt-20  max-width '>
+        <div className='dark:bg-stone-800 box text-center flex flex-col items-center gap-3'>
             <div className='w-16 h-16 rounded bg-purple flex items-center justify-center flex-shrink-0 mb-5'>
                 <Image src={"/icons/stars.svg"} alt="icon" width={35} height={35}/>
             </div>
-            <h2 className='text-grey-700'>My Creative Portfolios</h2>
-            <p className='text-grey-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic harum dic</p>
+            <h2 className='dark:text-peach-700 text-grey-700'>My Creative Portfolios</h2>
+            <p className='dark:text-peach-600 text-grey-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic harum dic</p>
         </div>
       </section>
 

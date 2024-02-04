@@ -92,7 +92,7 @@ const page = () => {
           title="Social Services"
           subtitle="Here is my overview of my involvement in social service over the past decade."
         />
-        <div className='text-center dark:bg-stone-950 bg-peach-300 w-full py-4 px-10 rounded-1-lg justify-around flex-wrap gap-12  lm:flex' data-aos="fade-right" data-aos-delay="400">
+        <div className='text-center dark:bg-stone-800 bg-peach-300 w-full py-4 px-10 rounded-1-lg justify-around flex-wrap gap-12  lm:flex' data-aos="fade-right" data-aos-delay="400">
             <div className='my-4 border-t-2 border-b-2 py-4'>
               <p className='dark:text-peach text-grey-600'>Serve</p>
               <h3 className='dark:text-peach-700 text-grey-700'>
@@ -196,17 +196,17 @@ const page = () => {
         />
         <div className='grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-3 tablet:gap-6 mb-3 tablet:mb-6'>
             {benefits.slice(0,2).map((benefit,index) =>(
-              <div key={index} className='box'>
-                <h5 className='text-grey-700 mb-2'>{benefit.name}</h5>
-                <p className='text-grey-600'>{benefit.description}</p>
+              <div key={index} className='box dark:bg-stone-800'>
+                <h5 className='dark:text-peach-700 text-grey-700 mb-2'>{benefit.name}</h5>
+                <p className='dark:text-peach-700 text-grey-600'>{benefit.description}</p>
               </div>
             ))}
         </div>
         <div className='grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-3 tablet:gap-6'>
             {benefits.slice(2).map((benefit,index) =>(
-              <div key={index} className='box'>
-                <h5 className='text-grey-700 mb-2'>{benefit.name}</h5>
-                <p className='text-grey-600'>{benefit.description}</p>
+              <div key={index} className='box dark:bg-stone-800 bg-peach-300'>
+                <h5 className='dark:text-peach-700 text-grey-700 mb-2'>{benefit.name}</h5>
+                <p className='dark:text-peach-700 text-grey-600'>{benefit.description}</p>
               </div>
             ))}
         </div>

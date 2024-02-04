@@ -72,11 +72,11 @@ export default TestimonialSection
 const SingleReview = ({review}:{review:(typeof reviews)[0] }) => {
 
     return (
-        <div className=' box flex flex-col gap-5'>
+        <div className='dark:bg-stone-800 bg-peach-300 box flex flex-col gap-5'>
             <div className='flex items-center justify-between'>
                 <div>
-                    <h6 className='text-grey-700'>{review.name}</h6>
-                    <p className='text-grey-500 text-sm'>{review.designation}</p>
+                    <h6 className='dark:text-peach-700 text-grey-700'>{review.name}</h6>
+                    <p className='dark:text-peach-700 text-grey-500 text-sm'>{review.designation}</p>
                 </div>
                 <div className='flex gap-3'>
                     {review.socialLinks.map((link,index) => (
@@ -106,7 +106,7 @@ const SingleReview = ({review}:{review:(typeof reviews)[0] }) => {
                     ))}
                 </div>
             </div>
-            <p className='text-grey-600'>{review.review}</p>
+            <p className='dark:text-peach-700 text-grey-600'>{review.review}</p>
         </div>
 
     )
