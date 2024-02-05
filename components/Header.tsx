@@ -51,7 +51,7 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
                 <h5 className='text-purple text-xl font-semibold'>Carrey<span className='text-yellow'>Cheang</span> </h5>
               </Link>
               
-              <div className="flex  md:flex-row flex-col-reverse desktop:w-full">
+              <div className="flex  md:flex-row flex-col-reverse w-full justify-end">
                 <div
                   className={`  md:block  md:pb-0 md:mt-0 
                   ${navbar ? '  block' : 'hidden'}
