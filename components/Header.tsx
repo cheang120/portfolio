@@ -24,7 +24,7 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
   
 
   return (
-    <header className=" w-full top-0 flex bg-peach-500 md:py-3 py-4 px-6 dark:bg-stone-950 start-0  dark:text-white fixed z-20"  >
+    <header className="justify-between w-full flex bg-peach-500 md:py-3 py-1 dark:bg-stone-950 start-0 backdrop-blur backdrop-opacity-80 dark:text-white fixed z-20"  >
       {/* <Link href={"/"}>
         <h5 className='text-purple text-xl font-semibold'>Carrey<span className='text-yellow'>Cheang</span> </h5>
       </Link> */}
@@ -43,22 +43,22 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
         </Link>
       </nav>
       <MobileMenu /> */}
-        <div className="w-full flex items-center justify-between">
+        <div className="w-full flex items-center justify-end  md:justify-between  px-10">
               <Link 
                 href="/"
-                className='max-[880px]:hidden'
+                className='hidden md:block'
               >
                 <h5 className='text-purple text-xl font-semibold'>Carrey<span className='text-yellow'>Cheang</span> </h5>
               </Link>
               
-              <div className="flex ">
+              <div className="flex  md:flex-row flex-col-reverse desktop:w-full">
                 <div
-                  className={`  flex-1 justify-self-center pb-3 mt-8 min-[880px]:block md:pb-0 md:mt-0 
+                  className={`  md:block  md:pb-0 md:mt-0 
                   ${navbar ? '  block' : 'hidden'}
                   `}
                 >
                   <ul 
-                    className=" flex items-center  gap-12 max-[880px]:block md:h-auto items-center justify-center flex "
+                    className=" flex items-center  gap-12  md:h-auto items-center justify-center flex mr-6 max-md:flex-col"
                   >      
                           {/* {navLinks.map((link,index) => (
                             <li key={index}>
@@ -140,20 +140,23 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
                     >
                         Contact
                     </Link>
+
+                    {/* <Themebutton /> */}
+
+
                     
                   </ul>
-
 
                   
                 </div>
 
-                <div className=' min-[880px]:hidden max-[768px]:block'>
+                {/* <div className='  '>
                     <Themebutton />
-                </div>
+                </div> */}
 
-                <div>
+                <div className='flex justify-end'>
                   <button
-                      className=" min-[880px]:hidden p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                      className=" md:hidden  p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                       onClick={() => setNavbar(!navbar)}
                     >
                       {navbar ? (
@@ -171,12 +174,11 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
                           alt="logo"
                         />
                       )}
+                      
+
                   </button>
-                  <div 
-                  className='ml-5 max-[880px]:hidden min-[880px]:block'
-                  >
-                      <Themebutton />
-                  </div>
+                  <Themebutton />
+
                 </div>
 
               </div>
