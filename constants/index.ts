@@ -392,24 +392,31 @@ export const timeline = [
   },
   {
     id: 2,
-    title: "Web Developer",
-    duration: "2015 - 2018",
+    title: "Counselor",
+    duration: "2013 - 2018",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "Since 2013, I have been working as a psychological counselor, assisting clients in adapting to the drug rehabilitation program at the center.",
   },
   {
     id: 3,
-    title: "Junior Web Developer",
-    duration: "2013 - 2015",
+    title: "Event Coordinator",
+    duration: "2011 - 2013",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "From the last year of university, I started working as an Event Coordinator at the DESAFI JOVEM TEEN CHALLENGE, responsible for organizing events and coordinating programs.",
   },
   {
     id: 4,
-    title: "Degree in Computer Science",
-    duration: "2010 - 2013",
+    title: "Bechelor in Pyscology",
+    duration: "2008 - 2012",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "Graduate in University of Saint Joseph, Macao in 2012.",
+  },
+  {
+    id: 5,
+    title: "Sales",
+    duration: "2007 - 2011",
+    description:
+      "Worked as a salesperson at SENG IP PEN & LIGHTER, responsible for sales and inventory management.",
   },
   
 ];
