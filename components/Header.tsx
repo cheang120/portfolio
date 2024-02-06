@@ -58,7 +58,7 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
                   `}
                 >
                   <ul 
-                    className=" flex items-center  gap-12  md:h-auto items-center justify-center flex mr-6 max-md:flex-col"
+                    className="h-screen flex items-center  gap-12  md:h-auto items-center justify-center flex mr-6 max-md:flex-col"
                   >      
                           {/* {navLinks.map((link,index) => (
                             <li key={index}>
@@ -69,7 +69,7 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
                     <Link 
                         href="/" 
                         onClick={() => setNavbar(!navbar)}
-                        className={`dark:text-white dark:hover:text-peach
+                        className={`dark:text-white dark:hover:text-peach max-md:text-3xl
                         py-3 text-grey-700 hover:text-purple transition-colors relative block after:block after:absolute
                                     after:left-0 after:h-0.5 after:bg-purple after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition
                                     after:duration-300 after:origin-right after:hover:origin-left 
@@ -87,7 +87,7 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
                     <Link 
                         href="/about" 
                         onClick={() => setNavbar(!navbar)}
-                        className={`dark:text-white dark:hover:text-peach
+                        className={`dark:text-white dark:hover:text-peach max-md:text-3xl
                         py-3 text-grey-700 hover:text-purple transition-colors relative block after:block after:absolute
                                     after:left-0 after:h-0.5 after:bg-purple after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition
                                     after:duration-300 after:origin-right after:hover:origin-left 
@@ -106,7 +106,7 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
                     <Link 
                         href="/portfolio" 
                         onClick={() => setNavbar(!navbar)}
-                        className={`dark:text-white dark:hover:text-peach
+                        className={`dark:text-white dark:hover:text-peach max-md:text-3xl
                         py-3 text-grey-700 hover:text-purple transition-colors relative block after:block after:absolute
                                     after:left-0 after:h-0.5 after:bg-purple after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition
                                     after:duration-300 after:origin-right after:hover:origin-left 
@@ -125,7 +125,7 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
                     <Link 
                         href="/contact" 
                         onClick={() => setNavbar(!navbar)}
-                        className={`dark:text-white dark:hover:text-peach
+                        className={`dark:text-white dark:hover:text-peach max-md:text-3xl
                         py-3 text-grey-700 hover:text-purple transition-colors relative block after:block after:absolute
                                     after:left-0 after:h-0.5 after:bg-purple after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition
                                     after:duration-300 after:origin-right after:hover:origin-left 
@@ -154,30 +154,43 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
                     <Themebutton />
                 </div> */}
 
-                <div className='flex justify-end'>
-                  <button
-                      className=" md:hidden  p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
-                      onClick={() => setNavbar(!navbar)}
+                <div className='flex justify-between'>
+                  <div className='items-center flex'>
+                    <Link 
+                      href="/"
+                      className='block md:hidden'
                     >
-                      {navbar ? (
-                        <Image 
-                          src="/close.svg"
-                          width={30}
-                          height={30}
-                          alt='close'
-                        />
-                      ) : (
-                        <Image
-                          src="/hamburger-menu.svg"
-                          width={30}
-                          height={30}
-                          alt="logo"
-                        />
-                      )}
-                      
+                      <h5 className='text-purple text-xl font-semibold'>Carrey<span className='text-yellow'>Cheang</span> </h5>
+                    </Link>
+                  </div>
+                  <div>
 
-                  </button>
-                  <Themebutton />
+                    <button
+                        className=" md:hidden  p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                        onClick={() => setNavbar(!navbar)}
+                      >
+                        {navbar ? (
+                          <Image 
+                            src="/close.svg"
+                            width={30}
+                            height={30}
+                            alt='close'
+                          />
+                          
+                        ) : (
+                          <Image
+                            src="/hamburger-menu.svg"
+                            width={30}
+                            height={30}
+                            alt="logo"
+                          />
+                          
+                        )}
+                        
+
+                    </button>
+                    <Themebutton />
+                  </div>
 
                 </div>
 

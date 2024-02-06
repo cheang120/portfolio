@@ -16,7 +16,7 @@ const FaqsSection = () => {
             <div className='dark:bg-stone-800 bg-peach-300 box'>
                 <Accordion data={faqs} />
             </div>
-            <div className='dark:bg-stone-800 bg-peach-300 box flex flex-col gap-5 tablet:max-w-md'>
+            <div className='dark:bg-stone-800  box flex flex-col gap-5 tablet:max-w-md'>
                 <div className='w-16 h-16 rounded bg-purple text-peach-100 flex items-center justify-center flex-shrink-0 mb-2'>
                     <Star fill="currentColor" size={30} />
                 </div>
