@@ -21,8 +21,6 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
   const [navbar, setNavbar] = useState(false);
   const pathname = usePathname()
 
-  
-
   return (
     <header className="justify-between w-full flex bg-peach-500 md:py-3 py-1 dark:bg-stone-950 start-0 backdrop-blur backdrop-opacity-80 dark:text-white fixed z-20"  >
       {/* <Link href={"/"}>
@@ -43,7 +41,7 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
         </Link>
       </nav>
       <MobileMenu /> */}
-        <div className="w-full flex items-center justify-end  md:justify-between  px-10">
+        <div className="w-full flex items-center md:py-2 py-6 justify-end md:justify-between px-10">
               <Link 
                 href="/"
                 className='hidden md:block'
@@ -54,18 +52,12 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
               <div className="flex  md:flex-row flex-col-reverse w-full justify-end">
                 <div
                   className={`  md:block  md:pb-0 md:mt-0 
-                  ${navbar ? '  block' : 'hidden'}
+                  ${navbar ? '  block ' : 'hidden'}
                   `}
                 >
                   <ul 
-                    className="h-screen flex items-center  gap-12  md:h-auto items-center justify-center flex mr-6 max-md:flex-col"
+                    className="h-screen flex items-center  gap-12  md:h-auto items-center justify-center flex mr-6 max-md:flex-col  "
                   >      
-                          {/* {navLinks.map((link,index) => (
-                            <li key={index}>
-                              <NavLink href={link.url} label={link.label} />
-                            </li>
-                          ))}   */}
-
                     <Link 
                         href="/" 
                         onClick={() => setNavbar(!navbar)}
@@ -140,19 +132,12 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
                     >
                         Contact
                     </Link>
-
-                    {/* <Themebutton /> */}
-
-
-                    
                   </ul>
 
                   
                 </div>
 
-                {/* <div className='  '>
-                    <Themebutton />
-                </div> */}
+
 
                 <div className='flex justify-between'>
                   <div className='items-center flex'>
@@ -164,43 +149,32 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
                     </Link>
                   </div>
                   <div>
-
                     <button
-                        className=" md:hidden  p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                        className=" md:hidden  p-2 text-gray-700 rounded-md outline-none  "
                         onClick={() => setNavbar(!navbar)}
                       >
                         {navbar ? (
-                          <Image 
-                            src="/close.svg"
-                            width={30}
-                            height={30}
-                            alt='close'
-                          />
-                          
+
+                          <div className='hamburget cursor-pointer '>
+                            <div className=' h-0.5 w-7 dark:bg-white bg-black my-2 opacity-80 origin-center rotate-45 duration-150 translate-y-3 transition-all ease-in-out '></div>
+                            <div className='odd:opacity-0 h-0.5 w-7 dark:bg-white bg-black my-2 opacity-0 '></div>
+                            <div className='h-0.5 w-7 dark:bg-white bg-black my-2 opacity-80 origin-center -rotate-45 duration-150  -translate-y-2 transition-all ease-in-out '></div>
+                          </div>
                         ) : (
-                          <Image
-                            src="/hamburger-menu.svg"
-                            width={30}
-                            height={30}
-                            alt="logo"
-                          />
+                          <div className='hamburget cursor-pointer '>
+                          <div className=' h-0.5 w-7 dark:bg-white bg-black my-2 opacity-80 transition-all ease-in-out duration-150 '></div>
+                          <div className=' h-0.5 w-7 dark:bg-white bg-black my-2 opacity-80 transition-all ease-in-out duration-150 '></div>
+                          <div className='h-0.5 w-7 dark:bg-white bg-black my-2 opacity-80 transition-all ease-in-out duration-150 '></div>
+                        </div>
                           
                         )}
-                        
-
                     </button>
+
                     <Themebutton />
                   </div>
-
                 </div>
-
               </div>
-            
         </div>
-
-
-
-
     </header>
   )
 }
