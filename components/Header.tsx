@@ -155,13 +155,13 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
                       >
                         {navbar ? (
 
-                          <div className='hamburget cursor-pointer '>
+                          <div className='cursor-pointer '>
                             <div className=' h-0.5 w-7 dark:bg-white bg-black my-2 opacity-80 origin-center rotate-45 duration-150 translate-y-3 transition-all ease-in-out '></div>
                             <div className='odd:opacity-0 h-0.5 w-7 dark:bg-white bg-black my-2 opacity-0 '></div>
                             <div className='h-0.5 w-7 dark:bg-white bg-black my-2 opacity-80 origin-center -rotate-45 duration-150  -translate-y-2 transition-all ease-in-out '></div>
                           </div>
                         ) : (
-                          <div className='hamburget cursor-pointer '>
+                          <div className=' cursor-pointer '>
                           <div className=' h-0.5 w-7 dark:bg-white bg-black my-2 opacity-80 transition-all ease-in-out duration-150 '></div>
                           <div className=' h-0.5 w-7 dark:bg-white bg-black my-2 opacity-80 transition-all ease-in-out duration-150 '></div>
                           <div className='h-0.5 w-7 dark:bg-white bg-black my-2 opacity-80 transition-all ease-in-out duration-150 '></div>

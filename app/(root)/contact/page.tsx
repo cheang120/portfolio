@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-        <section className='max-width pt-20'>
+        <section className='max-width md:pt-24 pt-32 '>
             <div className='dark:bg-stone-800 box text-center flex flex-col items-center gap-3'>
                 <div className='w-16 h-16 rounded bg-purple flex items-center justify-center flex-shrink-0 mb-5'>
                     <Image src={"/icons/stars.svg"} alt="icon" width={35} height={35}/>

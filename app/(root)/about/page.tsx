@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <section className='dark:bg-stone-950 bg-peach-500 pt-20 pb-16 max-width justify-center flex flex-col tablet:flex-row gap-20 items-center'>
-        <div className='relative justify-center w-96 tablet:w-200px h-[calc(300px+20vw)] tablet:h-[600px]'>
+      <section className='dark:bg-stone-950 bg-peach-500 md:pt-24 pt-32 pt-24 pb-16 max-width justify-center flex flex-col tablet:flex-row gap-20 items-center'>
+        <div className='relative justify-center w-96 tablet:w-200px h-[calc(300px+20vw)] tablet:h-[600px] ' data-aos="fade-right" data-aos-delay="100">
             <Image 
                 src={"/images/about.png"}
                 fill
@@ -23,12 +23,12 @@ const page = () => {
 
         <div className='tablet:w-1/2'>
 
-          <div className=' space-y-3 max-tablet:text-center flex flex-col'>
-            <p className='dark:bg-stone-800 dark:text-peach-700 px-4 py-2 bg-peach-500 text-grey-600 w-max rounded tablet:w-max max-tablet:mx-auto'>
+          <div className=' space-y-3 max-tablet:text-center flex flex-col mb-4'>
+            <p className='dark:bg-stone-800 dark:text-peach-700 px-4 py-2 bg-peach-500 text-grey-600 w-max rounded tablet:w-max max-tablet:mx-auto' data-aos="fade-down" data-aos-delay="100">
               Welcome to the world of captivating web development!
             </p>
-            <h1 className="dark:text-peach-700 text-grey-700">I'm Carrey Cheang</h1>
-            <p className="dark:text-peach-700 text-grey-600">
+            <h1 className="dark:text-peach-700 text-grey-700" data-aos="fade-down" data-aos-delay="200">I'm Carrey Cheang</h1>
+            <p className="dark:text-peach-700 text-grey-600" data-aos="fade-down" data-aos-delay="300">
             I have been working in the social services industry for over a decade, 
               assisting young individuals in recovering from drug addiction and 
               reintegrating into society. I also help them rebuild their family 
@@ -39,27 +39,28 @@ const page = () => {
             </p>
           </div>
 
-          <div className='dark:bg-stone-800 flex justify-around bg-peach-400 rounded-lg tablet:rounded-none tablet:bg-transparent tablet:border-t-2
-          tablet:border-b-2 tablet:border-purple w-full py-8 px-10 mt-14 tablet:mt-24 gap-8 flex flex-col tablet:flex-row'>
-            <div className='flex items-center gap-10 justify-center tablet:block'>
+        <div className='text-center dark:bg-stone-800 bg-peach-300 w-full py-4 px-4 rounded-1-lg justify-around flex-wrap gap-6  lm:flex' data-aos="fade-left" data-aos-delay="400">
+            <div className='my-4 border-t-2 border-b-2 py-4'>
+              <p className='dark:text-peach text-grey-600'>Serve</p>
               <h3 className='dark:text-peach-700 text-grey-700'>
-                55 <span className='text-purple'>+</span>
+                400 <span className='text-purple'>+</span>
               </h3>
-              <p className='dark:text-peach-700 text-grey-600'>Projects Completed</p>
+              <p className='dark:text-peach text-grey-600'>Individuals with drug addiction</p>
             </div>
-            <div className='flex items-center gap-10 justify-center tablet:block'>
+            <div className='my-4 border-t-2 border-b-2 py-4'>
+              <p className='dark:text-peach text-grey-600'>Organize and/or coordinate</p>
               <h3 className='dark:text-peach-700 text-grey-700'>
-                55 <span className='text-purple'>+</span>
+                10 <span className='text-purple'>+</span>
               </h3>
-              <p className='dark:text-peach-700 text-grey-600'>Happy Customers</p>
+              <p className='dark:text-peach text-grey-600'>events or courses annually</p>
             </div>
-            <div className='flex items-center gap-10 justify-center tablet:block'>
+            <div className='my-4 border-t-2 border-b-2 py-4'>
               <h3 className='dark:text-peach-700 text-grey-700'>
-                5 <span className='text-purple'>+</span>
+                13 <span className='text-purple'>+</span>
               </h3>
-              <p className='dark:text-peach-700 text-grey-600'>Years of experience</p>
+              <p className='dark:text-peach text-grey-600'>Years of experience</p>
             </div>
-          </div>
+        </div>
 
         </div>
 

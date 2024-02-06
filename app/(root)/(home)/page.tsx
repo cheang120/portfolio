@@ -10,12 +10,15 @@ import React from 'react'
 import FaqsSection from '@/components/FaqsSection'
 import { FaGithub, FaHtml5, FaReact, FaSass } from "react-icons/fa6";
 import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io'
+import ProgressBar from "@ramonak/react-progress-bar"
+import { SiTailwindcss } from 'react-icons/si'
+import { TbBrandNextjs } from 'react-icons/tb'
 
 const page = () => {
   return (
     <div>
       {/* hero section */}
-      <section className='dark:bg-stone-950 pt-20 pb-16 bg-peach-500 flex items-center max-width flex-col-reverse tablet:flex-row '>
+      <section className='dark:bg-stone-950 md:pt-24 pt-32 pb-16 bg-peach-500 flex items-center max-width flex-col-reverse tablet:flex-row '>
       
         <div className=' tablet:w-2/3 mt-10 tablet:mt-0'>
           <div className='flex flex-col gap-3 items-center tablet:items-start max-w-2xl text-center tablet:text-left'>
@@ -101,7 +104,7 @@ const page = () => {
               <p className='dark:text-peach text-grey-600'>Individuals with drug addiction</p>
             </div>
             <div className='my-4 border-t-2 border-b-2 py-4'>
-            <p className='dark:text-peach text-grey-600'>Organize and/or coordinate</p>
+              <p className='dark:text-peach text-grey-600'>Organize and/or coordinate</p>
               <h3 className='dark:text-peach-700 text-grey-700'>
                 10 <span className='text-purple'>+</span>
               </h3>
@@ -124,8 +127,8 @@ const page = () => {
           web design tools such as HTML, CSS, JavaScript, React, Tailwind CSS, 
           and more to complete web development projects."
         />
-        <div className='dark:bg-stone-800 bg-peach-300 text-center bg-peach-400 w-full py-4 px-10 rounded-1-lg justify-around flex-wrap gap-12 flex' data-aos="fade-right" data-aos-delay="400">
-            <div className='my-2 text-4xl text-red-600'>
+        <div className='dark:bg-stone-800 bg-peach-300 text-center bg-peach-400 w-full py-4 px-10 rounded-1-lg justify-around flex-wrap gap-12 flex' data-aos="fade-down" data-aos-delay="400">
+            {/* <div className='my-2 text-4xl text-red-600'>
               <FaHtml5 />
             </div>
             <div className='my-2 text-4xl text-sky-600'>
@@ -151,9 +154,70 @@ const page = () => {
                     height={36}
                     alt='logo'  
               />
+            </div> */}
+            <div className='w-96'>
+              <div className='flex mb-1'>
+                <p className='flex '>HTML</p>
+                <div className='text-2xl text-red-600 ml-2'>
+                  <FaHtml5 />
+                </div>
+              </div>
+              <ProgressBar completed={90} bgColor='#f06529' animateOnRender={true}/>
             </div>
-
-
+            <div className='w-96'>
+              <div className='flex mb-1'>
+                <p className='flex '>CSS</p>
+                <div className='text-2xl text-sky-600 ml-2'>
+                  <IoLogoCss3 />
+                </div>
+              </div>
+              <ProgressBar completed={85} bgColor='#2965f1' animateOnRender={true}/>
+            </div>
+            <div className='w-96'>
+              <div className='flex mb-1'>
+                <p className='flex '>Sass</p>
+                <div className='text-2xl text-[#FF22E9] ml-2'>
+                  <FaSass />
+                </div>
+              </div>
+              <ProgressBar completed={85} bgColor='#FF22E9' animateOnRender={true}/>
+            </div>
+            <div className='w-96'>
+              <div className='flex mb-1'>
+                <p className='flex '>Javascript</p>
+                <div className='text-2xl text-[#F0DB4F] ml-2'>
+                <IoLogoJavascript /> 
+                </div>
+              </div>
+              <ProgressBar completed={60} bgColor='#F0DB4F' animateOnRender={true}/>
+            </div>
+            <div className='w-96'>
+              <div className='flex mb-1'>
+                <p className='flex '>Tailwindcss</p>
+                <div className='text-2xl text-[#3490dc] ml-2'>
+                  <SiTailwindcss />
+                </div>
+              </div>
+              <ProgressBar completed={70} bgColor='#3490dc' animateOnRender={true}/>
+            </div>
+            <div className='w-96'>
+              <div className='flex mb-1'>
+                <p className='flex '>React</p>
+                <div className='text-2xl text-[#00d8ff] ml-2'>
+                <FaReact />
+                </div>
+              </div>
+              <ProgressBar completed={55} bgColor='#00d8ff' animateOnRender={true}/>
+            </div>
+            <div className='w-96'>
+              <div className='flex mb-1'>
+                <p className='flex '>Next.js</p>
+                <div className='text-2xl dark:text-white ml-2'>
+                <TbBrandNextjs />
+                </div>
+              </div>
+              <ProgressBar completed={55} bgColor='black' animateOnRender={true}/>
+            </div>
         </div>
       </section>
 
@@ -162,7 +226,10 @@ const page = () => {
       <section className='dark:bg-stone-950 bg-peach-500 max-width section-padding'>
         <SectionHeading
           title="Creative Skills"
-          subtitle="lorem ipsum dolor,...."
+          subtitle="I am skilled in utilizing HTML, CSS, JavaScript, React, 
+          and Next.js to create responsive webpages. Additionally, I have 
+          expertise in designing webpages using tools like Figma, ensuring 
+          visually appealing and user-friendly designs."
         />
 
           {/* skills */}
@@ -189,7 +256,7 @@ const page = () => {
       </section>
 
       {/* benifits section */}
-      <section className='dark:bg-stone-950 bg-peach-500 max-width section-padding'>
+      {/* <section className='dark:bg-stone-950 bg-peach-500 max-width section-padding'>
         <SectionHeading
           title='Benefits'
           subtitle="lorem ipsum dolor,...."
@@ -210,10 +277,10 @@ const page = () => {
               </div>
             ))}
         </div>
-      </section>
+      </section> */}
 
       {/* portfolio section */}
-      <section className='dark:bg-stone-950 bg-peach-500 max-width section-padding'>
+      {/* <section className='dark:bg-stone-950 bg-peach-500 max-width section-padding'>
         <SectionHeading
           title='My Works'
           subtitle="lorem ipsum dolor,...."
@@ -230,13 +297,13 @@ const page = () => {
         >
           View All projects
         </Link>
-      </section>
+      </section> */}
 
       {/* testimonial section */}
-      <TestimonialSection />
+      {/* <TestimonialSection /> */}
 
       {/* FAQs Section */}
-      <FaqsSection />
+      {/* <FaqsSection /> */}
     </div>
 
   )

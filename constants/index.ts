@@ -23,44 +23,44 @@ export const skills = [
     id: 1,
     name: "Front-end Development",
     description:
-      "Proficiency in coding the visual aspects of websites using HTML, CSS, and JavaScript to ensure a seamless and attractive user interface.",
+      "I have expertise in coding the visual aspects of websites using HTML, CSS, and JavaScript, ensuring a seamless and visually appealing user interface.",
     icon: "/icons/service-1.svg",
   },
   {
     id: 2,
     name: "User Interface - UI Development",
     description:
-      "Ability to craft visually appealing and user-friendly interfaces using code to enhance user engagement and interaction.",
+      "I possess the skill to develop visually captivating and intuitive interfaces through coding, enriching user engagement and interaction.",
     icon: "/icons/service-2.svg",
   },
   {
     id: 3,
     name: "User Experience - UX Development",
     description:
-      "Understanding of user behavior and experience principles applied through coding to create seamless and satisfying user interactions.",
+      "I have a deep understanding of user behavior and experience priciples, which I apply through coding to create smooth and gratifying user interactions",
     icon: "/icons/service-3.svg",
   },
   {
     id: 4,
     name: "Responsive Web Development",
     description:
-      "Capability to develop websites that adapt and function flawlessly across various devices and screen sizes using coding techniques.",
+      "I have the capability to create websites that seamlessly adapt and perform perfectly on different devices and screen sizes, utilizing coding techniques.",
     icon: "/icons/service-4.svg",
   },
-  {
-    id: 5,
-    name: "Prototyping and Development Testing",
-    description:
-      "Ability to code prototypes and conduct thorough testing to visualize and refine website functionalities.",
-    icon: "/icons/service-5.svg",
-  },
-  {
-    id: 6,
-    name: "Mobile-Friendly Coding",
-    description:
-      "Proficiency in coding practices that ensure websites function seamlessly on mobile devices.",
-    icon: "/icons/service-6.svg",
-  },
+  // {
+  //   id: 5,
+  //   name: "Prototyping and Development Testing",
+  //   description:
+  //     "Ability to code prototypes and conduct thorough testing to visualize and refine website functionalities.",
+  //   icon: "/icons/service-5.svg",
+  // },
+  // {
+  //   id: 6,
+  //   name: "Mobile-Friendly Coding",
+  //   description:
+  //     "Proficiency in coding practices that ensure websites function seamlessly on mobile devices.",
+  //   icon: "/icons/service-6.svg",
+  // },
 ];
 export const benefits = [
   {
@@ -369,17 +369,17 @@ export const contactDetails = [
   {
     id: 1,
     icon: Phone,
-    text: "+92 333 1234567",
+    text: "+853 6636 9509",
   },
   {
     id: 2,
     icon: Mail,
-    text: "waseemaofficial@gmail.com",
+    text: "carrey.120.cc@gmail.com",
   },
   {
     id: 3,
     icon: MapPin,
-    text: "Lahore, Pakistan",
+    text: "Macau, China",
   },
 ];
 export const timeline = [
