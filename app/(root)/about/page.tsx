@@ -67,7 +67,7 @@ const page = () => {
       </section>
 
       {/* Milstons Section */}
-      <section className='max-width section-padding'>
+      <section className='max-width pt-20 pb-24'>
         <SectionHeading
           title='Milestones of my career'
           subtitle='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi temporibus animi quos 
@@ -96,7 +96,7 @@ const page = () => {
                 <div className='dark:bg-stone-800 w-[calc(100%-4rem)] tablet:w-[calc(50%-2.5rem)] box !p-5 tablet:!p-8' data-aos="fade-down" data-aos-delay="200">
                   <div className='flex items-center justify-between space-x-2 mb-1'>
                     <h6 className='dark:text-peach-700 text-grey-700'>{item.title}</h6>
-                    <p className='dark:text-peach-700 font-semibold text-purple'>{item.duration}</p>
+                    <p className='dark:text-yellow font-semibold text-purple'>{item.duration}</p>
                   </div>
                   <div className='dark:text-peach-700 text-grey-600'>{item.description}</div>
                 </div>

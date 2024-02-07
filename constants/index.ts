@@ -385,34 +385,41 @@ export const contactDetails = [
 export const timeline = [
   {
     id: 1,
-    title: "Senior Web Developer",
-    duration: "2018 - Present",
+    title: "Director of the Centre",
+    duration: "2023 - now",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "I was appointed as the Director of Noah Family Mutual Aid Association in 2023, managing organizational affairs, formulating policies in the centre, monitoring operations, coordination departments, organizing activities and services, representing the organization, managing resources, maintaining records, handling special cases, and reporting to the board.",
   },
   {
     id: 2,
+    title: "Counselor",
+    duration: "2019 - 2023",
+    description:
+      "From 2019 to 2023, I worked as a counselor in Noah Family Mutual Aid Association , assisting individuals who had successfully overcome substance addiction in reitegrating into society.",
+  },
+  {
+    id: 3,
     title: "Counselor",
     duration: "2013 - 2018",
     description:
       "Since 2013, I have been working as a psychological counselor, assisting clients in adapting to the drug rehabilitation program at the center.",
   },
   {
-    id: 3,
+    id: 4,
     title: "Event Coordinator",
     duration: "2011 - 2013",
     description:
       "From the last year of university, I started working as an Event Coordinator at the DESAFI JOVEM TEEN CHALLENGE, responsible for organizing events and coordinating programs.",
   },
   {
-    id: 4,
+    id: 5,
     title: "Bechelor in Pyscology",
     duration: "2008 - 2012",
     description:
       "Graduate in University of Saint Joseph, Macao in 2012.",
   },
   {
-    id: 5,
+    id: 6,
     title: "Sales",
     duration: "2007 - 2011",
     description:
