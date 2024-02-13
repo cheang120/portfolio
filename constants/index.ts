@@ -10,7 +10,7 @@ export const navLinks = [
     url: "/about",
   },
   {
-    label: "Portfolio",
+    label: "Portfolio & Skills",
     url: "/portfolio",
   },
   {
@@ -97,94 +97,97 @@ export const benefits = [
 export const portfolios = [
   {
     id: 1,
-    title: "Z - Aura Perfume Website",
-    link: "#",
+    title: "SoapDelight.J",
+    link: "https://www.soapdelight.store/",
     images: [
-      "/images/portfolio-1.png",
-      "/images/portfolio-2.png",
-      "/images/portfolio-3.png",
+      "/images/SoapDelight-1.png",
+      "/images/SoapDelight-2.png",
+      "/images/SoapDelight-3.png",
     ],
   },
   {
     id: 2,
-    title: "Forhelp Charity Website",
-    link: "#",
+    title: "Schon",
+    link: "https://schon-seven.vercel.app/",
     images: [
-      "/images/portfolio-2.png",
-      "/images/portfolio-3.png",
-      "/images/portfolio-1.png",
+      "/images/Schon-1.png",
+      "/images/Schon-2.png",
+      "/images/Schon-3.png",
+      "/images/Schon-4.png",
+      "/images/Schon-5.png",
+      "/images/Schon-6.png",
     ],
   },
-  {
-    id: 3,
-    title: "Skill Bridge Website",
-    link: "#",
-    images: [
-      "/images/portfolio-3.png",
-      "/images/portfolio-1.png",
-      "/images/portfolio-2.png",
-    ],
-  },
-  {
-    id: 4,
-    title: "Current Vandi Website",
-    link: "#",
-    images: [
-      "/images/portfolio-4.png",
-      "/images/portfolio-5.png",
-      "/images/portfolio-6.png",
-    ],
-  },
-  {
-    id: 5,
-    title: "Fit Fusion Gym Website",
-    link: "#",
-    images: [
-      "/images/portfolio-5.png",
-      "/images/portfolio-6.png",
-      "/images/portfolio-7.png",
-    ],
-  },
-  {
-    id: 6,
-    title: "DX Digital Agency Website",
-    link: "#",
-    images: [
-      "/images/portfolio-6.png",
-      "/images/portfolio-7.png",
-      "/images/portfolio-8.png",
-    ],
-  },
-  {
-    id: 7,
-    title: "Little Learners Website",
-    link: "#",
-    images: [
-      "/images/portfolio-7.png",
-      "/images/portfolio-8.png",
-      "/images/portfolio-9.png",
-    ],
-  },
-  {
-    id: 8,
-    title: "StreamVibe Website",
-    link: "#",
-    images: [
-      "/images/portfolio-8.png",
-      "/images/portfolio-9.png",
-      "/images/portfolio-4.png",
-    ],
-  },
-  {
-    id: 9,
-    title: "YourBank Website",
-    link: "#",
-    images: [
-      "/images/portfolio-9.png",
-      "/images/portfolio-4.png",
-      "/images/portfolio-5.png",
-    ],
-  },
+  // {
+  //   id: 3,
+  //   title: "Skill Bridge Website",
+  //   link: "#",
+  //   images: [
+  //     "/images/portfolio-3.png",
+  //     "/images/portfolio-1.png",
+  //     "/images/portfolio-2.png",
+  //   ],
+  // },
+  // {
+  //   id: 4,
+  //   title: "Current Vandi Website",
+  //   link: "#",
+  //   images: [
+  //     "/images/portfolio-4.png",
+  //     "/images/portfolio-5.png",
+  //     "/images/portfolio-6.png",
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   title: "Fit Fusion Gym Website",
+  //   link: "#",
+  //   images: [
+  //     "/images/portfolio-5.png",
+  //     "/images/portfolio-6.png",
+  //     "/images/portfolio-7.png",
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   title: "DX Digital Agency Website",
+  //   link: "#",
+  //   images: [
+  //     "/images/portfolio-6.png",
+  //     "/images/portfolio-7.png",
+  //     "/images/portfolio-8.png",
+  //   ],
+  // },
+  // {
+  //   id: 7,
+  //   title: "Little Learners Website",
+  //   link: "#",
+  //   images: [
+  //     "/images/portfolio-7.png",
+  //     "/images/portfolio-8.png",
+  //     "/images/portfolio-9.png",
+  //   ],
+  // },
+  // {
+  //   id: 8,
+  //   title: "StreamVibe Website",
+  //   link: "#",
+  //   images: [
+  //     "/images/portfolio-8.png",
+  //     "/images/portfolio-9.png",
+  //     "/images/portfolio-4.png",
+  //   ],
+  // },
+  // {
+  //   id: 9,
+  //   title: "YourBank Website",
+  //   link: "#",
+  //   images: [
+  //     "/images/portfolio-9.png",
+  //     "/images/portfolio-4.png",
+  //     "/images/portfolio-5.png",
+  //   ],
+  // },
 ];
 export const reviews = [
   {

@@ -6,6 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   darkMode:"class",
   theme: {
 
@@ -57,6 +58,19 @@ const config: Config = {
           600: "#4D4D4D",
           700: "#333333",
         },
+        
+      },
+      fontSize:{
+        '2x1':'700',
+      },
+      fontWeight:{
+        'bold':'700'
+      },
+      fill:{
+        'circle-text':'#111827'
+      },
+      animation:{
+        'progressAnimation':'progressAnimation 2s linear forwards'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -69,6 +83,16 @@ const config: Config = {
         "15":"4.5rem",
         "16":"5rem"
       },
+      strokeWidth: {
+        '10':'10px'
+      },
+      keyframes:{
+        progressAnimation: {
+          '0%':{
+            strokeDashoffset: '251.32'
+          }
+        }
+      }
     },
   },
   plugins: [],

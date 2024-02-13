@@ -2,6 +2,7 @@
 import { portfolios } from '@/constants'
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 import React, { useState } from 'react'
 
 const PortfolioItem = ({portfolio,}:{portfolio:(typeof portfolios)[0]}) => {
@@ -21,9 +22,11 @@ const PortfolioItem = ({portfolio,}:{portfolio:(typeof portfolios)[0]}) => {
         <div className='bg-black bg-opacity-10 backdrop-blur-[1px] absolute top-0 left-0 w-full h-full opacity-0
                         group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center'
         >
-            <div className='w-16 h-16 flex items-center justify-center bg-peach-700 border border-peach-400 p-3 text-grey rounded-lg'>
-                <ArrowRight />
-            </div>             
+          <Link href={portfolio.link}>
+              <div className='w-16 h-16 flex items-center justify-center bg-peach-700 border border-peach-400 p-3 text-grey rounded-lg'>
+                    <ArrowRight />
+              </div>  
+          </Link>           
 
         </div>
       </div>

@@ -111,7 +111,7 @@ const Header = ({href,label,className}:{href:string,label:string,className?:stri
                             `}
                        
                     >
-                        Portfolio
+                        Portfolio & Skills
                     </Link>
 
                     <Link 

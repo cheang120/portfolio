@@ -7,6 +7,8 @@ import { Provider } from "@/components/Provider";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+
+
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
