@@ -359,7 +359,7 @@ export const socialLinks = [
     id: 1,
     label: "Linkedin",
     icon: Linkedin,
-    url: "#",
+    url: "https://www.linkedin.com/in/carrey-cheang-762087247/",
   },
 
 ];
