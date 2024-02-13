@@ -18,7 +18,6 @@ const page = () => {
                     <Image src={"/icons/stars.svg"} alt="icon" width={35} height={35}/>
                 </div>
                 <h2 className='dark:text-peach-700 text-grey-700'>I'd love to hear from you</h2>
-                <p className='dark:text-peach-600 text-grey-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic harum dic</p>
             </div>
         </section>
 
@@ -35,7 +34,7 @@ const page = () => {
                     </div>
                     <div className='dark:bg-stone-800 box !p-6'>
                         <p className='dark:text-peach-600 text-grey-600'>Location</p>
-                        <h6 className='dark:text-peach-700 text-grey-700'>Lorem ipsum dolor sit amet consectetur.</h6>
+                        <h6 className='dark:text-peach-700 text-grey-700'>Macau, China.</h6>
                     </div>
                     <h6 className='mt-10 text-grey-700 max-tablet:text-center'>My Social Profiles</h6>
                     <div className='dark:bg-stone-800 flex mb-3 gap-3 box !p-6 w-max max-tablet:mx-auto'>
@@ -53,24 +52,29 @@ const page = () => {
             </div>
 
             <div className='dark:bg-stone-800 box w-full'>
-                <form action="" className='space-y-5'>
+                <form action="https://formspree.io/f/mwkgovgl" method="POST" className='space-y-5'>
                     <div className='flex gap-5 max-tablet:flex-col'>
-                        <input type="text" placeholder='First Name' className='dark:bg-stone-800 dark:text-peach-700'/>
-                        <input type="text" placeholder='last Name' className='dark:bg-stone-800 dark:text-peach-700' />
+                        <input type="text" placeholder='First Name' name="name" className='dark:bg-stone-800 dark:text-peach-700'/>
+                        <input type="text" placeholder='last Name' name="name" className='dark:bg-stone-800 dark:text-peach-700' />
                     </div>
                     <div className='flex gap-5 max-tablet:flex-col'>
-                        <input type="text" placeholder='Email' className='dark:bg-stone-800 dark:text-peach-700'/>
-                        <input type="text" placeholder='Phone' className='dark:bg-stone-800 dark:text-peach-700'/>
+                        <input type="email" placeholder='Email'  name="_replyto" className='dark:bg-stone-800 dark:text-peach-700'/>
+                        <input  type="number" placeholder='Phone' name="phone" className='dark:bg-stone-800 dark:text-peach-700'/>
                     </div>
-                    <textarea placeholder='Message' className='min-h-[200px] dark:bg-stone-800 dark:text-peach-700'>
+                    <textarea placeholder='Message'  name="message" rows={7} className='min-h-[200px] dark:bg-stone-800 dark:text-peach-700'>
 
                     </textarea>
-                    <button type='submit' className='btn btn-primary'>Send</button>
+                    <button 
+                        type="submit" 
+                        value="Send"
+                        className='btn btn-primary'
+                    >
+                        Send
+                    </button>
                 </form>
             </div>
         </section>
 
-        <FaqsSection />
     </>
   )
 }

@@ -349,24 +349,19 @@ export const faqs = [
   },
 ];
 export const socialLinks = [
+  // {
+  //   id: 1,
+  //   label: "Facebook",
+  //   icon: Facebook,
+  //   url: "#",
+  // },
   {
     id: 1,
-    label: "Facebook",
-    icon: Facebook,
-    url: "#",
-  },
-  {
-    id: 2,
     label: "Linkedin",
     icon: Linkedin,
     url: "#",
   },
-  {
-    id: 3,
-    label: "Twitter",
-    icon: Twitter,
-    url: "#",
-  },
+
 ];
 export const contactDetails = [
   {
