@@ -30,7 +30,7 @@ const page = () => {
                     </div>
                     <div className='dark:bg-stone-800 box !p-6'>
                         <p className='dark:text-peach-600 text-grey-600'>Give me a Call on</p>
-                        <h6 className='dark:text-peach-700 text-grey-700'>+853 663695090</h6>
+                        <h6 className='dark:text-peach-700 text-grey-700'>+853 66369509</h6>
                     </div>
                     <div className='dark:bg-stone-800 box !p-6'>
                         <p className='dark:text-peach-600 text-grey-600'>Location</p>
