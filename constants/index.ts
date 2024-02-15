@@ -397,27 +397,34 @@ export const timeline = [
   },
   {
     id: 3,
+    title: "Master of Counselling and Psychotheropy",
+    duration: "2016",
+    description:
+      "Graduated in University of Saint Joseph, Macao in 2016.",
+  },
+  {
+    id: 4,
     title: "Counselor",
     duration: "2013 - 2018",
     description:
       "Since 2013, I have been working as a psychological counselor, assisting clients in adapting to the drug rehabilitation program at the center.",
   },
   {
-    id: 4,
+    id: 5,
     title: "Event Coordinator",
     duration: "2011 - 2013",
     description:
       "From the last year of university, I started working as an Event Coordinator at the DESAFI JOVEM TEEN CHALLENGE, responsible for organizing events and coordinating programs.",
   },
   {
-    id: 5,
+    id: 6,
     title: "Bechelor in Pyscology",
-    duration: "2008 - 2012",
+    duration: "2008 - 2013",
     description:
-      "Graduate in University of Saint Joseph, Macao in 2012.",
+      "Graduated in University of Saint Joseph, Macao in 2013.",
   },
   {
-    id: 6,
+    id: 7,
     title: "Sales",
     duration: "2007 - 2011",
     description:
