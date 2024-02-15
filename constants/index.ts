@@ -316,37 +316,22 @@ export const reviews = [
     ],
   },
 ];
-export const faqs = [
+export const certs = [
   {
     id: 1,
-    question: "Can you work with clients remotely?",
-    answer:
-      "Absolutely! I have experience working with clients from all around the world. Through effective communication channels such as email, video calls, and project management tools, I ensure seamless collaboration regardless of geographical location.",
+    certName: "Master in Counselling and Psychotherapy",
+    organization:
+      "University of Saint Joseph",
+    date:"2016"
   },
   {
     id: 2,
-    question: "Do you offer website maintenance services?",
-    answer:
-      "Yes, I offer website maintenance services. I will ensure that your website is up-to-date and running smoothly.",
+    certName: "Licentiate in Psychology",
+    organization:
+      "University of Saint Joseph",
+    date:"2013"
   },
-  {
-    id: 3,
-    question: "Do you offer website maintenance services?",
-    answer:
-      "Yes, I offer website maintenance services. I will ensure that your website is up-to-date and running smoothly.",
-  },
-  {
-    id: 4,
-    question: "Do you offer website maintenance services?",
-    answer:
-      "Yes, I offer website maintenance services. I will ensure that your website is up-to-date and running smoothly.",
-  },
-  {
-    id: 5,
-    question: "Do you offer website maintenance services?",
-    answer:
-      "Yes, I offer website maintenance services. I will ensure that your website is up-to-date and running smoothly.",
-  },
+
 ];
 export const socialLinks = [
   // {

@@ -3,6 +3,7 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import SectionHeading from '@/components/SectionHeading'
 import { timeline } from '@/constants'
+import FaqsSection from '@/components/FaqsSection'
 
 export const metadata: Metadata = {
     title: "About - Carrey Cheang"
@@ -104,6 +105,8 @@ const page = () => {
           ))}
         </div>
       </section>
+
+      <FaqsSection />
     </>
   )
 }
