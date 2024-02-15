@@ -30,7 +30,7 @@ const Accordion = ({data} : {data: AccordionData[]}) => {
                 currentActive !== index ? "max-h-0 opacity-0" : "max-h-[1000px] opacity-100 pb-5"
             }`}>
                 <p>{item.organization}</p>
-                <p>{item.date}</p>
+                <p className='text-yellow'>{item.date}</p>
             </div>
         </div>
       ))}
