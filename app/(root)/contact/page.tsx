@@ -36,7 +36,7 @@ const page = () => {
                         <p className='dark:text-peach-600 text-grey-600'>Location</p>
                         <h6 className='dark:text-peach-700 text-grey-700'>Macau, China.</h6>
                     </div>
-                    <h6 className='mt-10 text-grey-700 max-tablet:text-center'>My Social Profiles</h6>
+                    <h6 className='mt-10 text-grey-700 max-tablet:text-center dark:text-peach-800'>My Social Profiles</h6>
                     <div className='dark:bg-stone-800 flex mb-3 gap-3 box !p-6 w-max max-tablet:mx-auto'>
                         {socialLinks.map((link,index) => (
                             <a 
