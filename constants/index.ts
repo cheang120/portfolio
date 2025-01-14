@@ -98,7 +98,7 @@ export const portfolios = [
   {
     id: 1,
     title: "SoapDelight.J",
-    link: "https://www.soapdelight.store/",
+    link: "https://soapdelight-j.onrender.com/",
     images: [
       "/images/SoapDelight-1.png",
       "/images/SoapDelight-2.png",
